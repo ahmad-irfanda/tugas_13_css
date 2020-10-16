@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container{
+  width: 1000px;
+  margin: 50px auto;
+  background-color: none;
+}
+
+.satu,
+.dua{
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+
+}
+
+.satu{
+  background-color: ForestGreen;
+  border-image-source: url("img/hearts.png");
+  border-image-width: 20px;
+  border-image-slice: 20 22;
+  border-image-repeat: round;
+  border-image-outset: 20px;
+  box-shadow: 20px 20px black;
+}
+
+.dua{
+  background-color: blue;
+  border: solid;
+  border-image-source: url("img/border1.png");
+  border-image-width: 30px;
+  border-image-slice: 34 34;/* 18% */
+  border-image-repeat: round;
+  border-image-outset: 20px;
+  box-shadow: 5px 5px 15px black;
+}
